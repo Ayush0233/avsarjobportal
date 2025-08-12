@@ -1,0 +1,92 @@
+header{
+    background: linear-gradient(to right, #ea85ff,#6675ff);
+    padding: 0.5%;
+}
+.page1{
+    /* width: 100%; */
+    height: 88.5vh;
+    display: flex;
+    flex-direction: column;
+    padding: 2% 0;
+    /* justify-content: center; */
+    align-items: center;
+    background: url(../images/page1.png) center center/cover;
+    /* background-attachment: fixed; */
+}
+.page1 h1{
+    font-size: 4vw;
+    color: white;
+    font-weight: 300;
+}
+.page1 p{
+    font-size: 1.2vw;
+    color: #e6e6e6;
+    font-weight: bold;
+}
+.applyBtn{
+    position: absolute;
+    width: 10vw;
+    bottom: 23%;
+    left:82%;
+    transform: rotateZ(15deg);
+}
+.jobVacancy{
+    position: absolute;
+    top: 47%;
+    left: 44%;
+    /* transform: rotateZ(-15deg); */
+    width: 13vw;
+}
+.dashButton{
+    background: linear-gradient(to right, #7501b8, #ff47b9);
+    padding: 0.45vw 0.6vw;
+    font-weight: 500;
+    color: white;
+    border-radius: 5px;
+}
+.singout:hover{
+    background: linear-gradient(to right, #7501b8, #ff47b9);
+    border: none;    
+}
+
+.SignedOutInterface{
+    position: absolute;
+    left: 35%;
+    top: 80%;
+}
+.signednUI{
+    position: absolute;
+    left: 27.5%;
+    top: 85%;
+}
+.sectorList{
+    width: 70%;
+    color: white;
+    font-weight: 400;
+    font-size: 1.3vw;
+    margin: 8vh 2vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.sectorList li{
+    display: flex;
+    width: 10vw;
+    gap: 1vh;
+    flex-direction: column;
+    align-items: center;
+}
+.sectorList img{
+    aspect-ratio: 4/3;
+    object-fit: contain;
+    width: 45%;
+    /* mix-blend-mode:darken; */
+}
+.jobcards{
+    transition: 0.4s;
+}
+.jobcards:hover{
+    box-shadow: -5px -5px 10px #c052ffe7,
+    5px 5px 10px #299fc0,
+    5px -5px 10px #6675ff,
+    -5px 5px 10px #6675ff;
+}

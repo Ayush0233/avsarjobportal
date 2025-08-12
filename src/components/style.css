@@ -1,0 +1,28 @@
+ .dashButton {
+    background: linear-gradient(to right, #440568, #b40972);
+ }
+
+ .tablist {
+    padding: 10%;
+    border-radius: 8px;
+    background: #fbe4fb;
+    box-shadow: inset 5px 5px 10px #e1e1e1,
+       inset -5px -5px 10px #e1e1e1;
+ }
+
+ .dashboardTabs {
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 81.5vh;
+    padding-top: 2%;
+    /* padding-bottom: 20%; */
+    display: flex;
+    justify-content: center;
+    position: relative;
+    /* align-items: center; */
+    border-radius: 0px;
+    /* background: #f6f6f6; */
+    /* box-shadow: inset 5px 5px 10px #c2c2c262, */
+ }
+
