@@ -64,7 +64,7 @@ const Index = () => {
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <div className="flex items-center space-x-2">
             <Briefcase className="h-6 w-6 text-primary" />
-            <h1 className="text-xl font-bold">Job Portal</h1>
+            <h1 className="text-xl font-bold">Avsar</h1>
           </div>
           <div className="flex items-center space-x-4">
             {user ? (
